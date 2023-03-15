@@ -5,9 +5,9 @@ if __name__ == "__main__":
         print((len(argv) - 1), "arguments.")
     elif len(argv) == 2:
         print((len(argv) - 1), "argument:")
-        for i in argv:
-            print("{} : {}\n".format(argv.index(i) + 1, i))
+        for i  in argv:
+            print("{} : {}".format(argv.index(i) + 1, str(i + 1)))
     elif len(argv) > 2:
         print((len(argv) - 1), "arguments:")
         for i in argv:
-            print("{} : {}\n".format(argv.index(i) + 1, i))
+            print("{} : {}".format(argv.index(i) + 1, str(i + 1)))
