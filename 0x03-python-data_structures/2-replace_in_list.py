@@ -5,4 +5,4 @@ def replace_in_list(my_list, idx, element):
     i = 0
     while True:
         if i == idx:
-            return my_list(element[i])
+            return element(my_list[i])
