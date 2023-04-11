@@ -6,4 +6,4 @@ def element_at(my_list, idx):
     while True:
         if i == idx:
             return my_list[i]
-            i += 1
+        i += 1
