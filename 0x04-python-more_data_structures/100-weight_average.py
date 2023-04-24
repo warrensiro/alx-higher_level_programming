@@ -7,9 +7,9 @@ def weight_average(my_list=[]):
         for j in i:
             prod_list *= j
             if count == 1:
-                prod_list += j
+                divider += j
             count += 1
         sum_average += prod_list
         prod_list, count = 1, 0
-    weighted_average = sum_average / prod_list
+    weighted_average = sum_average / divider
     return weighted_average
