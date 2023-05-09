@@ -4,7 +4,7 @@
 
 class Square:
     """initialization method"""
-    def __int__(self, size=0):
+    def __init__(self, size=0):
         """validate size as int"""
         if not type(size) is int:
             raise TypeError("size must be an integer")
