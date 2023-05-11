@@ -20,9 +20,11 @@ class Square:
     @property
     def size(self):
         """getter decorator"""
+        if not type(size) is int:
+            raise TypeError("size must be an integer")
         return '{}'.format(self.__size)
 
     @size.setter
     def size(self, value):
         """setter decorator"""
-        self.__size = value 
+        self.__size = value
